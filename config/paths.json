@@ -1,0 +1,10 @@
+{
+  "src": {
+    "less": ["./src/assets/less/**/*.less", "!./src/assets/less/**/__*.less"],
+    "pug": ["./src/**/*.pug", "!./src/**/__*.pug"]
+  },
+  "pub": {
+    "css": "./public/assets/css/",
+    "main": "./public/"
+  }
+}
