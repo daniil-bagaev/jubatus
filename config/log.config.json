@@ -1,0 +1,128 @@
+{
+    "types": {
+        "info": {
+            "color": "blue",
+            "header": "[Info]"
+        },
+        "warning": {
+            "color": "yellow",
+            "header": "[Warning]"
+        },
+        "error": {
+            "color": "brightRed",
+            "header": "[Error]"
+        },
+        "help": {
+            "color": "cyan",
+            "header": "[Help]"
+        }
+    },
+    "modes": ["a", "w"],
+    "opts": {
+        "logdir": ".log",
+        "filename": null,
+        "mode": "a",
+        "suffix": null,
+        "header": null,
+        "prefix": null,
+        "date": null,
+        "color": "white",
+        "bg": "black",
+        "style": "standart",
+        "level": 3,
+        "colorCodes": {
+            "open": "\u001b[37m",
+            "close": "\u001b[39m"
+        },
+        "bgCodes": {
+            "open": "\u001b[40m",
+            "close": "\u001b[49m"
+        },
+        "styleCodes": {
+            "open": "\u001b[0m",
+            "close": "\u001b[0m"
+        }
+    },
+    "style": {
+        "standart": {
+            "open": "\u001b[0m",
+            "close": "\u001b[0m"
+        },
+        "reset": {
+            "open": "\u001b[0m",
+            "close": "\u001b[0m"
+        },
+        "bold": { 
+            "open": "\u001b[1m", 
+            "close": "\u001b[22m"
+        },
+        "dim": { 
+            "open": "\u001b[2m", 
+            "close": "\u001b[22m"
+        },
+        "italic": { 
+            "open": "\u001b[3m", 
+            "close": "\u001b[23m"
+        },
+        "underline": { 
+            "open": "\u001b[4m", 
+            "close": "\u001b[24m"
+        },
+        "overline": { 
+            "open": "\u001b[53m", 
+            "close": "\u001b[55m"
+        },
+        "inverse": { 
+            "open": "\u001b[7m", 
+            "close": "\u001b[27m"
+        },
+        "hidden": { 
+            "open": "\u001b[8m", 
+            "close": "\u001b[28m"
+        },
+        "strikethrough": { 
+            "open": "\u001b[9m", 
+            "close": "\u001b[29m"
+        }
+    },
+    "color": {
+        "white": "\u001b[37m",
+        "black": "\u001b[30m",
+        "red": "\u001b[31m",
+        "green": "\u001b[32m",
+        "yellow": "\u001b[33m",
+        "blue": "\u001b[34m",
+        "magenta": "\u001b[35m",
+        "cyan": "\u001b[36m",
+        "gray": "\u001b[90m",
+        "grey": "\u001b[90m",
+        "brightBlack": "\u001b[90m",
+        "brightWhite": "\u001b[97m",
+        "brightRed": "\u001b[91m",
+        "brightGreen": "\u001b[92m",
+        "brightYellow": "\u001b[93m",
+        "brightBlue": "\u001b[94m",
+        "brightMagenta": "\u001b[95m",
+        "brightCyan": "\u001b[96m"
+    },
+    "bg": {
+        "white": "\u001b[47m",
+        "black": "\u001b[40m",
+        "red": "\u001b[41m",
+        "green": "\u001b[42m",
+        "yellow": "\u001b[43m",
+        "blue": "\u001b[44m",
+        "magenta": "\u001b[45m",
+        "cyan": "\u001b[46m",
+        "gray": "\u001b[100m",
+        "grey": "\u001b[100m",
+        "brightBlack": "\u001b[100m",
+        "brightWhite": "\u001b[107m",
+        "brightRed": "\u001b[101m",
+        "brightGreen": "\u001b[102m",
+        "brightYellow": "\u001b[103m",
+        "brightBlue": "\u001b[104m",
+        "brightMagenta": "\u001b[105m",
+        "brightCyan": "\u001b[106m"
+    }
+}

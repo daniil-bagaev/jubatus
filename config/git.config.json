@@ -1,0 +1,7 @@
+{
+    "opts": {
+        "title": "Git commit",
+        "message": "Default commit",
+        "type": "patch"
+    }
+}

@@ -1,24 +1,38 @@
 {
-  "name": "jubatus",
-  "version": "0.0.0",
-  "description": "Jubatus framework",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daniil-bagaev/jubatus.git"
-  },
-  "keywords": [
-    "jubatus",
-    "framework",
-    "tasker"
-  ],
-  "author": "Jubatus Team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daniil-bagaev/jubatus/issues"
-  },
-  "homepage": "https://github.com/daniil-bagaev/jubatus#readme"
+    "name": "jubatus",
+    "version": "0.0.1",
+    "description": "Jubatus framework",
+    "main": "app.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daniil-bagaev/jubatus.git"
+    },
+    "keywords": [
+        "jubatus",
+        "framework", 
+        "logger",
+        "tasker"
+    ],
+    "author": "Jubatus Team",
+    "contributors": [
+        "Daniil Bagaev <daniil.bagaev@yahoo.com>"
+    ],
+    "year": "2022",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/daniil-bagaev/jubatus/issues"
+    },
+    "homepage": "https://github.com/daniil-bagaev/jubatus#readme",
+    "site": "http://jubatus.site",
+    "engines": {
+        "node": ">= 18.9.0",
+        "npm": ">=8.19.1"
+    }
+
 }

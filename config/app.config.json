@@ -1,0 +1,15 @@
+{
+    "config": {
+        "jubatus": "./lib/jubatus.js",
+        "plugins": {
+            "log": {
+                "js": "./lib/plugins/log.js",
+                "config": "./config/log.config.json"
+            },            
+            "git": {
+                "js": "./lib/plugins/git.js",
+                "config": "./config/git.config.json"
+            }
+        }
+    }
+}
