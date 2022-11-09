@@ -1,6 +1,7 @@
 {
     "config": {
         "jubatus": "./lib/jubatus.js",
+        "package": "./package.json",
         "plugins": {
             "log": {
                 "js": "./lib/plugins/log.js",
