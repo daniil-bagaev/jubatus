@@ -1,7 +1,11 @@
 {
     "opts": {
-        "title": "Git commit",
-        "message": "Default commit",
-        "type": "patch"
+        "title": "",
+        "message": "",
+        "type": "patch",
+        "status": "git status -b --ignored=matching",
+        "add": "git add .",
+        "push": "git push -u origin main",
+        "commit": "git commit -m"
     }
 }
