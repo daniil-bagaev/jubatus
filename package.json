@@ -1,9 +1,10 @@
 {
     "name": "jubatus",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Jubatus framework",
     "main": "app.js",
     "directories": {
+        "doc": "docs",
         "lib": "lib"
     },
     "scripts": {
@@ -15,7 +16,7 @@
     },
     "keywords": [
         "jubatus",
-        "framework", 
+        "framework",
         "logger",
         "tasker"
     ],
@@ -34,5 +35,4 @@
         "node": ">= 18.9.0",
         "npm": ">=8.19.1"
     }
-
 }

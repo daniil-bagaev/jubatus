@@ -1,5 +1,8 @@
 {
     "types": {
+        "standart": {
+            "color": "white"
+        },
         "info": {
             "color": "blue",
             "header": "[Info]"
@@ -19,6 +22,7 @@
     },
     "modes": ["a", "w"],
     "opts": {
+        "type": "standart",
         "logdir": ".log",
         "filename": null,
         "mode": "a",

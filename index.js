@@ -4,3 +4,4 @@ const
     jubatus = require(config.jubatus);
 
 jubatus.log('rgb test');
+jubatus.git.status();
