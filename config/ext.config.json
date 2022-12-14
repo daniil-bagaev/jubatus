@@ -1,0 +1,6 @@
+{
+    ".pug": ".php",
+    ".less": ".css",
+    ".js": ".js",
+    ".json": ".json"
+}

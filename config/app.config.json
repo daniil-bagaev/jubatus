@@ -3,6 +3,13 @@
         "jubatus": "./lib/jubatus.js",
         "package": "./package.json",
         "plugins": {
+            "src": "./lib/plugins/src.js",
+            "dest": "./lib/plugins/dest.js",
+            "task": "./lib/plugins/task.js",
+            "tasks": {
+                "pug": "./lib/tasks/pug.js",
+                "less": "./lib/tasks/less.js"
+            },
             "log": {
                 "js": "./lib/plugins/log.js",
                 "config": "./config/log.config.json"

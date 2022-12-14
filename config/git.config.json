@@ -1,7 +1,7 @@
 {
     "opts": {
         "title": "",
-        "message": "Fix bugs",
+        "message": "Add new features",
         "type": "patch",
         "status": "git status -b --ignored=matching",
         "add": "git add .",
