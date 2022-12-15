@@ -2,14 +2,17 @@
     "config": {
         "jubatus": "./lib/jubatus.js",
         "package": "./package.json",
+        "ext": "./config/ext.config.json",
         "plugins": {
+            "test": "./lib/plugins/test.js",
             "src": "./lib/plugins/src.js",
             "dest": "./lib/plugins/dest.js",
-            "task": "./lib/plugins/task.js",
             "tasks": {
+                "dir": "./lib/tasks/",
                 "pug": "./lib/tasks/pug.js",
                 "less": "./lib/tasks/less.js"
             },
+            "task": "./lib/plugins/task.js",
             "log": {
                 "js": "./lib/plugins/log.js",
                 "config": "./config/log.config.json"
