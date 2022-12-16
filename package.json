@@ -1,6 +1,6 @@
 {
 	"name": "jubat",
-	"version": "0.0.13",
+	"version": "0.0.17",
 	"description": "Jubatus framework",
 	"main": "app.js",
 	"directories": {
@@ -10,8 +10,7 @@
 		"example": "examples"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon app.js"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",

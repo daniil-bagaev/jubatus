@@ -1,7 +1,10 @@
 ## Dependencies
 node_modules/
+## IDE
+*.code-workspace
 ## Project files
 .log/
 build/
 lib/plugins/test.js
 src/assets/img/__original/
+app.js
