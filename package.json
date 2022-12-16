@@ -1,6 +1,6 @@
 {
-	"name": "jub",
-	"version": "0.0.11",
+	"name": "jubat",
+	"version": "0.0.12",
 	"description": "Jubatus framework",
 	"main": "app.js",
 	"directories": {
